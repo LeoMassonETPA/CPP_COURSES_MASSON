@@ -1,4 +1,5 @@
 #include "Course.cpp"
+#include "Championnat.cpp"
 #include <string>
 #include <iostream>
 
@@ -11,8 +12,5 @@ int main(){
     Course course3 = Course("RainbowRace"; "-1");
     Course course4 = Course("BowserCastillo"; "-1");
     Course course5 = Course("Long-fleuve-tranquille"; "-1");
-
-    int nombreScoreParCourse = 3
-    
 
 }

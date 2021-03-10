@@ -16,5 +16,5 @@ class Championnat{
     int afficheMeilleursTpsToutConf();
     int afficheMeilleurTpsJoueur();
     int afficheMeilleurTpsTotal();
-    Championnat(int nbCourses, float tempsMoyen);
+    Championnat(int nbCourses, float tempsMoyen, int meilleurScore, int meilleursTpsToutConf, int meilleurTpsJoueur, int meilleurTpsTotal);
 };
