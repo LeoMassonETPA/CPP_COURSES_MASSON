@@ -7,7 +7,8 @@ class Course{
     int _score;
 
     public:
-    std::string affichePseudo();
+    std::string afficheNom();
+    std::string affichePseudoMeilleurTps();
     float calculMoyenne();
     int afficheScore();
     void ajouteScore(); 

@@ -2,8 +2,12 @@
 #include <string>
 #include <iostream>
 
-std::string Course::affichePseudo(){
+std::string Course::afficheNom(){
     return _identifiant;
+}
+
+std::string Course::affichePseudoMeilleurTps(){
+    
 }
 
 int Course::afficheScore(){
