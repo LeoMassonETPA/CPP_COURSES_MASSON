@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 
-class Course {
+class Course{
     private: 
     std::string _identifiant;
     int _score;
@@ -11,5 +11,5 @@ class Course {
     float calculMoyenne();
     int afficheScore();
     void ajouteScore(); 
-    Course(std::string identifiant, int score)
+    Course(std::string identifiant, int score);
 };
